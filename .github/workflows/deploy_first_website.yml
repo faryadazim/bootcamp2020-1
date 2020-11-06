@@ -23,7 +23,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: installing NodeJS
-        run: action/setup-node@v2-beta
+        uses: actions/setup-node@v2-beta
         with:
           node-version: 12  
 
@@ -31,5 +31,5 @@ jobs:
       - name: install Surge
         run: npm install --global surge
       - name: Deploying using project
-        run: surge ./ firstnew112233.surge.sh --token $ {{ secrets.Surge_Token }}
+        run: surge ./ firstnew112233.surge.sh --token "0274f6b9ec6715d627f43f2c0189eccf"
         
