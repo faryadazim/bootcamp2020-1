@@ -31,5 +31,5 @@ jobs:
       - name: install Surge
         run: npm install --global surge
       - name: Deploying using project
-        run: surge ./ firstnew112233.surge.sh --token "0274f6b9ec6715d627f43f2c0189eccf"
+        run: surge ./ faryadmaalic.surge.sh --token "0274f6b9ec6715d627f43f2c0189eccf"
         
